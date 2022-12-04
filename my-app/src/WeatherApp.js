@@ -6,7 +6,7 @@ import Flow from "./image/airFlow.svg";
 import Cloudy from "./image/day-cloudy.svg"
 const WeatherApp = () => {
     fetch(
-        'https://opendata.cwb.gov.tw/api/v1/rest/datastore/O-A0003-001?Authorization=CWB-87D3253E-3DAB-41D7-83E8-1A224E5EFDAA&locationName=澎湖',
+        'https://opendata.cwb.gov.tw/api/v1/rest/datastore/O-A0003-001?Authorization= &locationName=臺北',
     )
         .then(response => response.json())
         .then(data => {
